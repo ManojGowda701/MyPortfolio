@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manoj Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="header" id="header">
+        <a href="#" class="logo">MANOJ.</a>
+
+        <nav class="navbar">
+            <a href="#header">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="home">
+        <div class="home-content">
+            <h1>Hi, I'm <span style="color: rgb(162 232 22);">Manoj Gowda</span><br> from Bengaluru</h1>
+            <h3>Frontend Developer</h3>
+            <div class="btn-box">
+                <a href="Resume.pdf" download target="_blank">Download CV</a>
+            </div>    
+        </div>
+        <span class="home-imgHover"></span>
+    </section>
+
+<!-- -----------------About--------------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="pic3.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="subtitle">About Me</h1>
+                    <p style="color: #ededed;">Pragmatic and versatile oriented person
+                        looking forward to be a part of an organization
+                        where I can work and learn simultaneously in a
+                        professional environment. As a dedicated learner, I am excited about the opportunity to contribute my fresh perspective and strong work ethic. I am ready to immerse myself in a professional environment and embark on a journey of growth and achievement.</p>
+                
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI/UX</span><br>HTML, CSS, Bootstrap</li>
+                            <li><span>Web Development</span><br>Javascript</li>
+                            <li><span>App Development</span><br>Building android/ios apps</li>
+                            <li><span>Version Control</span><br>Git, Github</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2018</span><br>Kumaran's Pre-University College<br>Science Stream ( PCME ) - 87.75%</li>
+                            <li><span>2022</span><br>BNM Institute of Technology<br>Mechanical Engineering ( B.E ) - 8.78 CGPA</li>
+                            </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ---------------------services--------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Proficient in a range of technologies, including front-end development, responsive design, and web application deployment. Committed to delivering high-quality, dynamic, user-centric websites and performance-optimized solutions that align with client objectives.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-square-js"></i>
+                    <h2>App Development</h2>
+                    <p>Creating innovative and user-focused mobile applications. Proficient in mobile platform technologies, UI/UX design principles, and application deployment. Committed to delivering high-quality apps that offer seamless functionality and exceptional user experiences.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+                <div>
+                    <i class="fa-brands fa-react"></i>
+                    <h2>ReactJS</h2>
+                    <p>React.js developer with a proven track record of building dynamic and responsive user interfaces. Proficient in front-end technologies, state management, and component-based architecture. Committed to delivering visually appealing and high-performing web applications that enhance user experiences.</p>
+                    <!-- <a href="#">Learn more</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- --------------------portfolio------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work1.png" style="height: 12rem; width: 21rem;">
+                    <div class="layer">
+                        <h3>Game Dashboard 1</h3>
+                        <p>A impressive design of valorant game dashboard using only HTML & CSS</p>
+                        <a href="https://github.com/ManojGowda701/Game2_Dashboard" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work2.png" style="height: 12rem; width: 21rem;">
+                    <div class="layer">
+                        <h3>Todo List</h3>
+                        <p>Todo List UI/UX created with the integration of HTML, CSS & Javascript</p>
+                        <a href="https://github.com/ManojGowda701/Todo_list" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work3.png" style="height: 12rem; width: 21rem;">
+                    <div class="layer">
+                        <h3>Game Dashboard 2</h3>
+                        <p>A basic game dashboard with the use of only HTML & CSS</p>
+                        <a href="https://github.com/ManojGowda701/Game1_Dashboard" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------------------contact------------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>manojgowda701@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>+91 9620417173</p>
+                    <div class="social-icons">
+                        <a href="https://www.gmail.com/" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+                        <a href="https://www.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/manoj-gowda-21058b192/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="Email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright © Manoj.</p>
+        </div>
+    </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyiqUqr5RMAHb_Ek_sJWjWsUYOPiQmCm1bfFi4IQ5UwqDL3pLvXTpt0YYvxtQAyKhac/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = " Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+
+</body>
+</html>
